@@ -8,9 +8,9 @@ Notebooks are commited in a "run" state in three folders:
 
 **eda** - "Exploratory Data Analysis". Mainly focused on mutual information between features and the target.
 
-**model** - Notesbooks showing effects of changing features and hyperparamters on random forest/XGBoost trees performances
+**model** - Notebooks showing effects of changing features and hyperparamters on random forest/XGBoost trees performances
 
-**submission** - Contains a single notebook which writies
+**submission** - Contains a single notebook which writes a file which can be submitted to Kaggle
 
 
 # Setup
