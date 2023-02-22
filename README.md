@@ -2,10 +2,20 @@
 
 These are some notebooks associated with the Kaggle ["House Prices - Advanced Regression Techniques"](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques) competition.
 
-#Structure
-TODO
+# Structure
 
-#Setup
+Notebooks are commited in a "run" state in three folders:
+
+**eda** - "Exploratory Data Analysis". Mainly focused on mutual information between features and the target.
+
+**model** - Notesbooks showing effects of changing features and hyperparamters on random forest/XGBoost trees performances
+
+**submission** - Contains a single notebook which writies
+
+
+# Setup
+
+Notebooks are better seen in the Jupyter environment vs directly on GitHub, since theres a lot of (false positive) warnings from Pandas which can be largely hidden in Jupyter.
 
 Assuming a linux OS with pyenv installed, the bash commands to setup a python virtual environment with the required dependencies can be found in install\_deps.sh.
 
